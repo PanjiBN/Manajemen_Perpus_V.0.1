@@ -13,7 +13,6 @@ public class Buku {
     protected String judul;
     protected String pengarang;
     protected String penerbit;
-    protected String jenisBuku;
     protected String deskripsi;
     protected int dapatDipinjam;
     protected int sedangDipinjam;
@@ -21,12 +20,11 @@ public class Buku {
     public Buku(){
         
     }
-    public Buku(int idBuku, String judul, String pengarang, String penerbit, String jenisBuku, String deskripsi, int dapatDipinjam, int sedangDipinjam){
+    public Buku(int idBuku, String judul, String pengarang, String penerbit, String deskripsi, int dapatDipinjam, int sedangDipinjam){
         this.idBuku = idBuku;
         this.judul = judul;
         this.pengarang = pengarang;
         this.penerbit = penerbit;
-        this.jenisBuku = jenisBuku;
         this.deskripsi = deskripsi;
         this.dapatDipinjam = dapatDipinjam;
         this.sedangDipinjam = sedangDipinjam;
@@ -56,12 +54,6 @@ public class Buku {
     public void setPenerbit(String penerbit) {
         this.penerbit = penerbit;
     }
-    public String getJenisBuku() {
-        return jenisBuku;
-    }
-    public void setJenisBuku(String jenisBuku) {
-        this.jenisBuku = jenisBuku;
-    }
     public String getDeskripsi() {
         return deskripsi;
     }
@@ -80,5 +72,13 @@ public class Buku {
     public void setSedangDipinjam(int sedangDipinjam) {
         this.sedangDipinjam = sedangDipinjam;
     }
-    
+    public String getInfoBuku(){
+        return "Id buku\t: " + idBuku + "\n" 
+        + "Judul buku\t: " + judul + "\n" 
+        + "Pengarang buku\t: " + pengarang + "\n"
+        + "Penerbit buku\t: " + penerbit + "\n"
+        + "Deskripsi buku\t: " + deskripsi + "\n"
+        + "Buku yang bisa dipinjam: " + dapatDipinjam + "\n"
+        + "Buku yang sedang dipinjam: " + sedangDipinjam + "\n";
+    }
 }
