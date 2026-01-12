@@ -53,8 +53,6 @@ public class PageFiksi extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\acera\\Downloads\\Vector_Book_Icon_With_Flat_Design__1___1_-removebg-preview (1).png")); // NOI18N
-
         btnTambah.setText("Tambah Buku");
 
         btnPinjam.setText("Pinjam Buku");
