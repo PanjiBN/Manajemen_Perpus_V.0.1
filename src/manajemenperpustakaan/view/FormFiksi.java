@@ -43,6 +43,8 @@ public class FormFiksi extends javax.swing.JFrame {
         txtDptpinjam = new javax.swing.JTextField();
         txtSdgPinjam = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
+        btnSimpanFik = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -51,64 +53,75 @@ public class FormFiksi extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel3.setText("Judul          :");
-        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 70, -1, -1));
+        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 100, -1, 20));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel4.setText("Pengarang :");
-        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 90, -1, -1));
+        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 130, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel5.setText("Penerbit :");
-        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 110, -1, -1));
+        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 160, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel6.setText("Genre :");
-        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 130, -1, -1));
+        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 190, -1, -1));
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel7.setText("Deskripsi :");
-        jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 150, -1, -1));
+        jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 220, -1, -1));
 
         jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel8.setText("Dapat dipinjam :");
-        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 170, -1, -1));
+        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 250, -1, -1));
 
         jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel9.setText("Sedang dipinjam :");
-        jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 190, -1, -1));
+        jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 280, -1, -1));
 
         txtJudul.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtJudulActionPerformed(evt);
             }
         });
-        jPanel2.add(txtJudul, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 70, 260, -1));
+        jPanel2.add(txtJudul, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 100, 260, -1));
 
         txtPengarang.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtPengarangActionPerformed(evt);
             }
         });
-        jPanel2.add(txtPengarang, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 90, 260, -1));
-        jPanel2.add(txtPenerbit, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 110, 260, -1));
-        jPanel2.add(txtGenre, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 130, 260, -1));
-        jPanel2.add(txtDeskripsi, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 150, 260, -1));
-        jPanel2.add(txtDptpinjam, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 170, 260, -1));
-        jPanel2.add(txtSdgPinjam, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 190, 260, -1));
+        jPanel2.add(txtPengarang, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 130, 260, -1));
+        jPanel2.add(txtPenerbit, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 160, 260, -1));
+        jPanel2.add(txtGenre, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 190, 260, -1));
+        jPanel2.add(txtDeskripsi, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 220, 260, -1));
+        jPanel2.add(txtDptpinjam, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 250, 260, -1));
+        jPanel2.add(txtSdgPinjam, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 280, 260, -1));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Brown and Beige Simple Vintage Illustration Project Presentation (2).jpg"))); // NOI18N
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        btnSimpanFik.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnSimpanFik.setText("Simpan");
+        jPanel2.add(btnSimpanFik, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 320, -1, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Ilustrasi daftar resto menu minuman landscape (1).png"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 500, -1));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -170,6 +183,8 @@ public class FormFiksi extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnSimpanFik;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
